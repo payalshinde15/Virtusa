@@ -1,0 +1,106 @@
+.help{
+  padding-bottom: 64px;
+  
+}
+
+.Call-btn{
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  background: #ff523b;
+  color: #fff;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.7s;
+}
+.Call-btn:hover{
+  background: #5c0808;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+.contact-us {
+  padding: 30px 40px 30px 20px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 10px 10px 0px #b37373;
+}
+.contact-us input, .contact-us textarea {
+  background: #FFFFFF;
+  border: 2px solid #DDDDDD;
+  border-radius: 4px;
+  padding: 10px 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-color: #ffd6d6;
+}
+.contact-us textarea {
+  max-width: 100%;
+  min-height: 180px;
+}
+.contact-us button {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #DDDDDD;
+  background-color: #ff523b;
+  color: #FFFFFF;
+  border-radius: 4px;
+  margin: 0px auto;
+  display: table;
+  cursor: pointer;
+  transition: background 0.7s;
+}
+.contact-us button:hover{
+  background: #563434;
+}
+.help{
+  text-align: center;
+}
+.cont-btn h2{
+  font-size: 35px;
+  line-height: 40px;
+  margin: 25px 0;
+  text-align: center;
+}
+.cont-btn h5{
+  font-size: 15px;
+  line-height: 20px;
+  margin: 15px 0;
+  text-align: center;
+}
+.Call-btn {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+.feed h2{
+  font-size: 35px;
+  text-align: center;
+  line-height: 150px;
+  margin: 25px 0;
+}
+.feed h5{
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  margin: 15px 0;
+}

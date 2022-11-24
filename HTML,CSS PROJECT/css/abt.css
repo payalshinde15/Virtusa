@@ -1,0 +1,80 @@
+.main .row {
+    display: grid;
+    grid-template-columns: 25% 75% !important;
+}
+body{
+    margin-top: 20px;
+    background-color: burlywood;
+}
+.main hr{
+    height: .2rem;
+    background: black;
+}
+.main h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.main{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+    background-color: burlywood;
+    overflow: hidden;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.topbar a{
+    float: none;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    font-size: 15;
+}
+.topbar a:hover{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem 0.5rem;
+    background: gray;
+}
+.sidebar{
+    color: white;
+    height: 70%;
+}
+.sidebar a{
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-color: burlywood;
+    font-size: 15px;
+}
+.card-body img{
+    border-radius: 50%;
+    padding-left: 2rem;
+    padding: 1rem 0;
+}
+.card-body h3{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.card-body a{
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    padding-left: 3rem;
+}
+.card-body .col-md-3{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.card-body .col-md-9{
+    font-size: 1.5rem;
+}
